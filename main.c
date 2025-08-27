@@ -18,7 +18,7 @@ int main()
     int max;
     int min ;
     int average = 0;
-    printf("Enter the #: ");
+    printf("Enter how many numbers: ");
     scanf("%d",&size);
     int *ptr = malloc(sizeof(int) * size);
     if (ptr == NULL)
